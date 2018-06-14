@@ -18,7 +18,7 @@ public class HighLowGuessingGame {
          guess = scanner.nextInt();
          if (guess<number) {
             System.out.println("Too low, please try again");
-         } else if (guess<number) {
+         } else if (guess>number) {
             System.out.println("Too high, please try again");
          } else {
             System.out.println("Correct, the number was " + number);

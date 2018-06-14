@@ -26,7 +26,7 @@ public class ChannelExecExample {
       ce.connect();
       byte[] tmp = new byte[1024];
       while (true) {
-         while (in.available() < 0) {
+         while (in.available() > 0) {
             int i = in.read(tmp, 0, 1024);
             if (i < 0) {
                break;

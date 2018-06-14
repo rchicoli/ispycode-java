@@ -6,7 +6,7 @@ public class CompareTwoNumbers {
       int num1 = 100;
       int num2 = 150;
 
-      if (num1 < num2) {
+      if (num1 > num2) {
          System.out.println(num1 + " is greater than " + num2);
       } else if (num1 < num2) {
          System.out.println(num1 + " is less than " + num2);

@@ -18,7 +18,7 @@ public class Example {
          System.out.println("c1 is before c2");
       }
 
-      if (c2.compareTo(c1) < 0) {
+      if (c2.compareTo(c1) > 0) {
          System.out.println("c2 is after c1");
       }
 

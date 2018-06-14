@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // Create a Generic List
-      List<String< list = new ArrayList<String<();
+      List<String> list = new ArrayList<String>();
 
       // Add values to a Generic List
       list.add("Hello World");

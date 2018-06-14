@@ -4,7 +4,7 @@ import java.util.concurrent.Executors;
 
 public class Example {
 
-   static ConcurrentLinkedDeque<Integer< deque = new ConcurrentLinkedDeque<<();
+   static ConcurrentLinkedDeque<Integer> deque = new ConcurrentLinkedDeque<>();
 
    public static void main(String[] args) {
       ExecutorService service = Executors.newFixedThreadPool(2);

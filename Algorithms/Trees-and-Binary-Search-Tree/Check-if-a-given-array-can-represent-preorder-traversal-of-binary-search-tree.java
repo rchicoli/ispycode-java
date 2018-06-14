@@ -3,7 +3,7 @@ import java.util.Stack;
 class BinarySearchTree {
 
    boolean canRepresentBST(int pre[], int n) {
-      Stack<Integer< s = new Stack<<();
+      Stack<Integer> s = new Stack<>();
 
       int root = Integer.MIN_VALUE;
 

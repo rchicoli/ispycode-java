@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) throws Exception {
 
       // create  LinkedList
-      LinkedList<Integer< list = new LinkedList<<();
+      LinkedList<Integer> list = new LinkedList<>();
 
       // Adding elements to the LinkedList
       list.add(20);
@@ -17,7 +17,7 @@ public class Example {
       System.out.println(list);
 
       // clone LinkedList
-      LinkedList<Integer< clone = (LinkedList<Integer<) list.clone();
+      LinkedList<Integer> clone = (LinkedList<Integer>) list.clone();
 
       // print out cloned LinkedList
       System.out.println(clone);

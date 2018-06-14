@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create TreeSet
-      TreeSet<Integer< set = new TreeSet<<();
+      TreeSet<Integer> set = new TreeSet<>();
 
       // add elements
       set.add(10);

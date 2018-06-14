@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) throws Exception {
 
       // create  LinkedList
-      LinkedList<Integer< list = new LinkedList<<();
+      LinkedList<Integer> list = new LinkedList<>();
 
       // Adding elements to the LinkedList
       list.add(10);

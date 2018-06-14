@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create LinkedBlockingDeque with a fixed size
-      LinkedBlockingDeque<Integer< deque = new LinkedBlockingDeque<<(3);
+      LinkedBlockingDeque<Integer> deque = new LinkedBlockingDeque<>(3);
 
       // add a bunch of elements
       for (int i = 1; i <= 5; i++) {

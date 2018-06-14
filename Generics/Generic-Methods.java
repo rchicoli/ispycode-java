@@ -9,7 +9,7 @@ public class Example {
       printArray(colors);   
    }
 
-   public static <E< void printArray(E[] arr) {
+   public static <E> void printArray(E[] arr) {
       for (E e : arr) {
          System.out.print(e + " ");
       }

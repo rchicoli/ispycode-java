@@ -19,12 +19,12 @@ public class Example {
       while (h <= arr.length / 3) {
          h = h * 3 + 1;
       }
-      while (h < 0) {
+      while (h > 0) {
          for (outer = h; outer < arr.length; outer++) {
             temp = arr[outer];
             inner = outer;
 
-            while (inner < h - 1 && arr[inner - h] <= temp) {
+            while (inner > h - 1 && arr[inner - h] >= temp) {
                arr[inner] = arr[inner - h];
                inner -= h;
             }

@@ -11,7 +11,7 @@ public class LIS {
 
       for (int i = 1; i < n; i++) {
          res = _lis(arr, i);
-         if (arr[i - 1] < arr[n - 1] && res + 1 < max_ending_here) {
+         if (arr[i - 1] < arr[n - 1] && res + 1 > max_ending_here) {
             max_ending_here = res + 1;
          }
       }

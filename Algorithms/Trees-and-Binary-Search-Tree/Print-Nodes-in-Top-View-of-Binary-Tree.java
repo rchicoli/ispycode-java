@@ -39,9 +39,9 @@ class Tree {
          return;
       }
 
-      HashSet<Integer< set = new HashSet<<();
+      HashSet<Integer> set = new HashSet<>();
 
-      Queue<QItem< Q = new LinkedList<<();
+      Queue<QItem> Q = new LinkedList<>();
       Q.add(new QItem(root, 0));
 
       while (!Q.isEmpty()) {

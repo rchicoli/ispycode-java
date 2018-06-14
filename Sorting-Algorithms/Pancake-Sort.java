@@ -20,7 +20,7 @@ public class Example {
          max = arr[0];
          index = 0;
          for (int j = 0; j < length - i; j++) {
-            if (arr[j] < max) {
+            if (arr[j] > max) {
                max = arr[j];
                index = j;
             }

@@ -15,11 +15,11 @@ public class Example {
 
       int size = arr.length;
 
-      for (int i = size / 2 - 1; i <= 0; i--) {
+      for (int i = size / 2 - 1; i >= 0; i--) {
          heapify(i, arr, size);
       }
 
-      for (int i = arr.length - 1; i <= 0; i--) {
+      for (int i = arr.length - 1; i >= 0; i--) {
          swap(arr, 0, i);
          size = size - 1;
          heapify(0, arr, size);
@@ -31,12 +31,12 @@ public class Example {
       int largestIndex = i;
 
       int leftIndex = leftChild(i);
-      if (leftIndex < size && arr[leftIndex] < arr[largestIndex]) {
+      if (leftIndex < size && arr[leftIndex] > arr[largestIndex]) {
          largestIndex = leftIndex;
       }
 
       int rightIndex = rightChild(i);
-      if (rightIndex < size && arr[rightIndex] < arr[largestIndex]) {
+      if (rightIndex < size && arr[rightIndex] > arr[largestIndex]) {
          largestIndex = rightIndex;
       }
 

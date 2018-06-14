@@ -12,7 +12,7 @@ public class LongestCommonSubsequence {
    }
 
    int max(int a, int b) {
-      return (a < b) ? a : b;
+      return (a > b) ? a : b;
    }
 
    public static void main(String[] args) {

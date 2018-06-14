@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create an empty TreeSet
-      TreeSet<String< set = new TreeSet<<();
+      TreeSet<String> set = new TreeSet<>();
 
       // add elements to the TreeSet
       set.add("Apple");

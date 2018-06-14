@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create an ArrayList
-      ArrayList<String< list = new ArrayList<<();
+      ArrayList<String> list = new ArrayList<>();
 
       // add a few items to the list
       list.add("Apple");
@@ -16,7 +16,7 @@ public class Example {
       System.out.println(String.join(",", list));
 
       // clone the ArrayList
-      ArrayList<String< clone = (ArrayList<String<) list.clone();
+      ArrayList<String> clone = (ArrayList<String>) list.clone();
 
       // print out the cloned ArrayList
       System.out.println(String.join(",", clone));

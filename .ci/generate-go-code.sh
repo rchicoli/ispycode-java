@@ -18,7 +18,7 @@ for filename in $(find $HOME/ispycode.com/Java -type f); do
         sed 's/\&quot;/\"/g'       |\
         sed 's/\&lt;/\</g'         |\
         sed 's/\&amp;/\&/g'        |\
-        sed 's/\&gt;/\</g'         |\
+        sed 's/\&gt;/\>/g'         |\
         sed 's/\&#40;/(/g'         |\
         sed 's/\&#41;/)/g'         |\
         sed 's/\&#91;/[/g'         |\

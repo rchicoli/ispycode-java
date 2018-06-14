@@ -9,8 +9,8 @@ public class Example {
       int z = 3;
 
       // test relational operator (greater than)
-      System.out.println("y < x " + (y < x));
-      System.out.println("y < z " + (y < z));
+      System.out.println("y > x " + (y > x));
+      System.out.println("y > z " + (y > z));
 
    }
 }

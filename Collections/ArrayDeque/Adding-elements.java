@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create array deque
-      ArrayDeque<Integer< ad = new ArrayDeque<<();
+      ArrayDeque<Integer> ad = new ArrayDeque<>();
 
       // add element
       ad.add(10);

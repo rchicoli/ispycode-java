@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // Create  LinkedList
-      LinkedList<String< list = new LinkedList<<();
+      LinkedList<String> list = new LinkedList<>();
 
       // Adding elements to the LinkedList
       list.add("Apple");

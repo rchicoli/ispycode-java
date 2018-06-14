@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // Create a Generic Set
-      Set<String< set = new HashSet<String<();
+      Set<String> set = new HashSet<String>();
 
       // Add values to a Generic Set
       set.add("Hello World");

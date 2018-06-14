@@ -18,7 +18,7 @@ public class RotatingCube extends JPanel {
       scale(100);
       rotateCube(PI / 4, atan(sqrt(2)));
 
-      new Timer(17, (ActionEvent e) -< {
+      new Timer(17, (ActionEvent e) -> {
          rotateCube(PI / 180, 0);
          repaint();
       }).start();
@@ -80,7 +80,7 @@ public class RotatingCube extends JPanel {
    }
 
    public static void main(String[] args) {
-      SwingUtilities.invokeLater(() -< {
+      SwingUtilities.invokeLater(() -> {
          JFrame f = new JFrame();
          f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          f.setTitle("Rotating Cube");

@@ -20,7 +20,7 @@ class Clock extends JPanel {
       setPreferredSize(new Dimension(size, size));
       setBackground(Color.GRAY);
 
-      new Timer(1000, (ActionEvent e) -< {
+      new Timer(1000, (ActionEvent e) -> {
          repaint();
       }).start();
    }
@@ -67,7 +67,7 @@ class Clock extends JPanel {
    }
 
    public static void main(String[] args) {
-      SwingUtilities.invokeLater(() -< {
+      SwingUtilities.invokeLater(() -> {
          JFrame f = new JFrame();
          f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
          f.setTitle("Clock");

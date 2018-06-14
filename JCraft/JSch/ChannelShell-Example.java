@@ -48,7 +48,7 @@ public class ChannelShellExample {
       int retries = 5;
       for (int x = 1; x < retries; x++) {
          Thread.sleep(1000);
-         if (outputStream.toString().indexOf("$") < 0) {
+         if (outputStream.toString().indexOf("$") > 0) {
             System.out.print(outputStream.toString());
             outputStream.reset();
             return;

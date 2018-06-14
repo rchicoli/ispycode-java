@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create  LinkedList
-      LinkedList<Integer< list = new LinkedList<<();
+      LinkedList<Integer> list = new LinkedList<>();
 
       // add elements list
       list.add(20);

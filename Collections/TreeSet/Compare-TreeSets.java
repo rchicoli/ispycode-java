@@ -5,17 +5,17 @@ public class Example {
    public static void main(String[] args) {
 
       // TreeSet 1
-      TreeSet<String< set1 = new TreeSet<<();
+      TreeSet<String> set1 = new TreeSet<>();
       set1.add("Apple");
       set1.add("Orange");
 
       // TreeSet 2
-      TreeSet<String< set2 = new TreeSet<<();
+      TreeSet<String> set2 = new TreeSet<>();
       set2.add("Orange");
       set2.add("Apple");
 
       // TreeSet 3
-      TreeSet<String< set3 = new TreeSet<<();
+      TreeSet<String> set3 = new TreeSet<>();
       set3.add("Apple");
       set3.add("Plum");
 

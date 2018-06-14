@@ -4,7 +4,7 @@ public class GFG {
 
    static int findLongestFromACell(int i, int j, int mat[][], int dp[][]) {
 
-      if (i < 0 || i <= n || j < 0 || j <= n) {
+      if (i < 0 || i >= n || j < 0 || j >= n) {
          return 0;
       }
 
@@ -16,11 +16,11 @@ public class GFG {
          return dp[i][j] = 1 + findLongestFromACell(i, j + 1, mat, dp);
       }
 
-      if (j < 0 && (mat[i][j] + 1 == mat[i][j - 1])) {
+      if (j > 0 && (mat[i][j] + 1 == mat[i][j - 1])) {
          return dp[i][j] = 1 + findLongestFromACell(i, j - 1, mat, dp);
       }
 
-      if (i < 0 && (mat[i][j] + 1 == mat[i - 1][j])) {
+      if (i > 0 && (mat[i][j] + 1 == mat[i - 1][j])) {
          return dp[i][j] = 1 + findLongestFromACell(i - 1, j, mat, dp);
       }
 

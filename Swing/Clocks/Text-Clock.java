@@ -28,7 +28,7 @@ class TextClockWindow extends JFrame {
       this.setTitle("Text Clock");
       this.pack();
 
-      Timer t = new Timer(1000, (ActionEvent e) -< {
+      Timer t = new Timer(1000, (ActionEvent e) -> {
          Calendar now = Calendar.getInstance();
          int h = now.get(Calendar.HOUR_OF_DAY);
          int m = now.get(Calendar.MINUTE);

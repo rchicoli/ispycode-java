@@ -8,7 +8,7 @@ public class SubsetSum {
          return false;
       }
 
-      if (set[n - 1] < sum) {
+      if (set[n - 1] > sum) {
          return isSubsetSum(set, n - 1, sum);
       }
 

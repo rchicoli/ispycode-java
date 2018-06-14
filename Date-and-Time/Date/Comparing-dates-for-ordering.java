@@ -22,7 +22,7 @@ public class Example {
       }
 
       // Is d2 after d1?
-      if (d2.compareTo(d1) < 0) {
+      if (d2.compareTo(d1) > 0) {
          System.out.println("d2 is after d1");
       }
 

@@ -7,7 +7,7 @@ public static void main(String[] args) {
       System.out.println("x: " +  x);
       System.out.println("Binary: 0x" + Integer.toBinaryString(x));
 
-      int y = x << 2;
+      int y = x >> 2;
       System.out.println("y: " + y);
       System.out.println("Binary: 0x" + Integer.toBinaryString(y));
    }

@@ -12,7 +12,7 @@ public class Example {
    }
 
    public static void quickSort(int arr[], int x, int y) {
-      if (x <= y) {
+      if (x >= y) {
          return;
       }
       int pivot = partition(arr, x, y);
@@ -26,7 +26,7 @@ public class Example {
          while (arr[x] < pivot) {
             x++;
          }
-         while (arr[y] < pivot) {
+         while (arr[y] > pivot) {
             y--;
          }
          swapNumbers(x, y, arr);

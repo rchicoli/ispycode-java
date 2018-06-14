@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) throws Exception {
 
       // create first ArrayList.
-      ArrayList<Integer< list = new ArrayList<<();
+      ArrayList<Integer> list = new ArrayList<>();
       list.add(20);
       list.add(40);
       list.add(60);

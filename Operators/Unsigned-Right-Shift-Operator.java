@@ -9,7 +9,7 @@ public class Example {
       System.out.println("x: " +  x);
       System.out.println("Binary: 0x" + Integer.toBinaryString(x));
 
-      int y = x <<< 1;
+      int y = x >>> 1;
       System.out.println("y: " + y);
       System.out.println("Binary: 0x" + Integer.toBinaryString(y));
    }

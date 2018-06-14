@@ -32,9 +32,9 @@ class Tree {
 
       int hd = 0;
 
-      Map<Integer, Integer< map = new TreeMap<<();
+      Map<Integer, Integer> map = new TreeMap<>();
 
-      Queue<Node< queue = new LinkedList<<();
+      Queue<Node> queue = new LinkedList<>();
 
       root.hd = hd;
       queue.add(root);
@@ -57,12 +57,12 @@ class Tree {
          }
       }
 
-      Set<Entry<Integer, Integer<< set = map.entrySet();
+      Set<Entry<Integer, Integer>> set = map.entrySet();
 
-      Iterator<Entry<Integer, Integer<< iterator = set.iterator();
+      Iterator<Entry<Integer, Integer>> iterator = set.iterator();
 
       while (iterator.hasNext()) {
-         Map.Entry<Integer, Integer< me = iterator.next();
+         Map.Entry<Integer, Integer> me = iterator.next();
          System.out.print(me.getValue() + " ");
       }
    }

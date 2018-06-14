@@ -18,7 +18,7 @@ public class StoogeSort {
          L[i] = L[j];
          L[j] = tmp;
       }
-      if (j - i < 1) {
+      if (j - i > 1) {
          int t = (j - i + 1) / 3;
          stoogeSort(L, i, j - t);
          stoogeSort(L, i + t, j);

@@ -12,7 +12,7 @@ public class Example {
    }
 
    public static void mergeSort(int[] arr) {
-      if (arr.length < 1) {
+      if (arr.length > 1) {
          int[] left = leftHalf(arr);
          int[] right = rightHalf(arr);
 
@@ -47,7 +47,7 @@ public class Example {
       int i2 = 0;
 
       for (int i = 0; i < arr.length; i++) {
-         if (i2 <= right.length || (i1 < left.length && left[i1] <= right[i2])) {
+         if (i2 >= right.length || (i1 < left.length && left[i1] <= right[i2])) {
             arr[i] = left[i1];
             i1++;
          } else {

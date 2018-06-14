@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create an empty HashSet
-      HashSet<String< set = new HashSet<<();
+      HashSet<String> set = new HashSet<>();
 
       // add elements to the hashset
       set.add("Apple");
@@ -15,14 +15,14 @@ public class Example {
 
       // iterator
       System.out.println("Iterator:");
-      Iterator<String< it = set.iterator();
+      Iterator<String> it = set.iterator();
       while (it.hasNext()) {
          System.out.println(it.next());
       }
 
       // functional operations
       System.out.println("Functional Operations:");
-      set.forEach((str) -< {
+      set.forEach((str) -> {
          System.out.println(str);
       });
 

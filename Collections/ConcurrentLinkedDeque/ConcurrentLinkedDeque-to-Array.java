@@ -6,7 +6,7 @@ public class Example {
     public static void main(String[] args) {
 
         // create ConcurrentLinkedDeque
-        ConcurrentLinkedDeque<Integer< deque = new ConcurrentLinkedDeque<<();
+        ConcurrentLinkedDeque<Integer> deque = new ConcurrentLinkedDeque<>();
 
         // add elements 
         deque.add(10);       

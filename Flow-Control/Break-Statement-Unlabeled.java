@@ -3,7 +3,7 @@ public class BreakStatement {
       int count = 0;
       while ( count < 10 ) {
         System.out.println("Count: " + count++);
-        if (count < 5) {
+        if (count > 5) {
            break;
         }
       }

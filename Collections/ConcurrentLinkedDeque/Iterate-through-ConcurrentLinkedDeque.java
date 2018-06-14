@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create ConcurrentLinkedDeque
-      ConcurrentLinkedDeque<Integer< deque = new ConcurrentLinkedDeque<<();
+      ConcurrentLinkedDeque<Integer> deque = new ConcurrentLinkedDeque<>();
 
       // add elements with offer
       deque.add(10);
@@ -23,7 +23,7 @@ public class Example {
 
       // functional operations
       System.out.println("functional operations");
-      deque.forEach((i) -< {
+      deque.forEach((i) -> {
          System.out.println(i);
       });
 

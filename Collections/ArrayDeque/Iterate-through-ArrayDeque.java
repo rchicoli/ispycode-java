@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create array deque
-      ArrayDeque<Integer< ad = new ArrayDeque<<();
+      ArrayDeque<Integer> ad = new ArrayDeque<>();
 
       // add elements with offer
       ad.add(10);
@@ -24,7 +24,7 @@ public class Example {
 
       // functional operations
       System.out.println("functional operations");
-      ad.forEach((i) -< {
+      ad.forEach((i) -> {
          System.out.println(i);
       });
 

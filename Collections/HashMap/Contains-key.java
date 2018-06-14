@@ -4,7 +4,7 @@ public class Example {
 
    public static void main(String[] args) {
 
-      HashMap<String, String< map = new HashMap<<();
+      HashMap<String, String> map = new HashMap<>();
       map.put("key1", "AAAA");
       map.put("key2", "BBBB");
       map.put("key3", "CCCC");

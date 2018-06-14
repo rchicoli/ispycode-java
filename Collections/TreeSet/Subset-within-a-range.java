@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create an empty TreeSet
-      TreeSet<Integer< set = new TreeSet<<();
+      TreeSet<Integer> set = new TreeSet<>();
 
       // add elements to the HashSet
       set.add(10);
@@ -18,7 +18,7 @@ public class Example {
       System.out.println(set);
 
       // Get subset in range 25 to 50
-      Set<Integer< subset = set.subSet(25,50);
+      Set<Integer> subset = set.subSet(25,50);
 
       System.out.println(subset);
 

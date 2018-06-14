@@ -23,7 +23,7 @@ public class AnalogClock extends JPanel
    public void paintComponent(Graphics g) {
       Graphics2D g2d = (Graphics2D) g;
       g2d.translate(getWidth() / 2, getHeight() / 2);
-      int side = getWidth() < getHeight() ? getHeight() : getWidth();
+      int side = getWidth() > getHeight() ? getHeight() : getWidth();
       g2d.scale(side / 250, side / 250);
       setAllRenderingHints(g2d);
       drawClockFace(g2d);

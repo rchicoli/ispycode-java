@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create an empty array list
-      ArrayList<String< list = new ArrayList();
+      ArrayList<String> list = new ArrayList();
 
       list.add("Apple");
       list.add("Orange");
@@ -21,7 +21,7 @@ public class Example {
       }
 
       // functional operations
-      list.forEach((str) -< {
+      list.forEach((str) -> {
          System.out.println(str + " ");
       });
 

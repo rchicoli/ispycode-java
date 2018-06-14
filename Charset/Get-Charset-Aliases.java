@@ -13,7 +13,7 @@ public class Example {
       Set set = cs.aliases();
 
       // print list charsets aliases.
-      Iterator<String< it = set.iterator();
+      Iterator<String> it = set.iterator();
       while (it.hasNext()) {
          System.out.println(it.next());
       }

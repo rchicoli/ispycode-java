@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // Create a Generic Map
-      Map<Integer, String< map = new HashMap<Integer, String<();
+      Map<Integer, String> map = new HashMap<Integer, String>();
 
       // Add values to a Generic Map
       map.put(1, "value1");

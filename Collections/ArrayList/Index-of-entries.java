@@ -4,7 +4,7 @@ public class Example {
 
    public static void main(String[] args) {
 
-      ArrayList<Integer< list = new ArrayList<<();
+      ArrayList<Integer> list = new ArrayList<>();
 
       // add a few items to the arraylist
       list.add(10);

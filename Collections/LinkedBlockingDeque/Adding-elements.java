@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create LinkedBlockingDeque
-      LinkedBlockingDeque<Integer< deque = new LinkedBlockingDeque<<();
+      LinkedBlockingDeque<Integer> deque = new LinkedBlockingDeque<>();
 
       // add element
       deque.add(10);

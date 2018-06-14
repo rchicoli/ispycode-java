@@ -5,17 +5,17 @@ public class Example {
    public static void main(String[] args) {
 
       // HashSet 1
-      HashSet<String< set1 = new HashSet<<();
+      HashSet<String> set1 = new HashSet<>();
       set1.add("Apple");
       set1.add("Orange");
 
       // HashSet 2
-      HashSet<String< set2 = new HashSet<<();
+      HashSet<String> set2 = new HashSet<>();
       set2.add("Orange");
       set2.add("Apple");
 
       // HashSet 3
-      HashSet<String< set3 = new HashSet<<();
+      HashSet<String> set3 = new HashSet<>();
       set3.add("Apple");
       set3.add("Plum");
 

@@ -6,7 +6,7 @@ public class Example {
 
    public static void main(String[] args) {
 
-      HashMap<String, String< map = new HashMap<<();
+      HashMap<String, String> map = new HashMap<>();
       map.put("key1", "AAAA");
       map.put("key2", "BBBB");
       map.put("key3", "CCCC");
@@ -28,7 +28,7 @@ public class Example {
       }
 
       // functional operations
-      map.forEach((k, v) -< System.out.println(k + " : " + v));
+      map.forEach((k, v) -> System.out.println(k + " : " + v));
 
    }
 }

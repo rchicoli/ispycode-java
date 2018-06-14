@@ -18,7 +18,7 @@ class BinaryTree {
          return null;
       }
 
-      if (node.data < n1 && node.data < n2) {
+      if (node.data > n1 && node.data > n2) {
          return lca(node.left, n1, n2);
       }
 

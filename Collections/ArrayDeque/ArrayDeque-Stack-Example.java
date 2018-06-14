@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create ArrayDeque
-      ArrayDeque<Integer< stack = new ArrayDeque<<();
+      ArrayDeque<Integer> stack = new ArrayDeque<>();
 
       // push elements onto stack
       stack.push(10);

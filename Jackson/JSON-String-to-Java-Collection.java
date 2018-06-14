@@ -8,8 +8,8 @@ public class Example {
    public static void main(String[] args) throws IOException {
 
       String json = "[{\"id\":1,\"name\":\"bean1\"},{\"id\":2,\"name\":\"bean2\"}]";
-      ArrayList <MyBean< list;
-      list = new ObjectMapper().readValue(json, new TypeReference<ArrayList<MyBean<<() {});
+      ArrayList <MyBean> list;
+      list = new ObjectMapper().readValue(json, new TypeReference<ArrayList<MyBean>>() {});
       for (MyBean bean : list) {
          System.out.print("ID:" + bean.getId());
          System.out.println(" Name:" + bean.getName());

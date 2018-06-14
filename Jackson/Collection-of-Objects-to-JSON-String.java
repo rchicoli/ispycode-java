@@ -6,7 +6,7 @@ public class Example {
 
    public static void main(String[] args) throws IOException {
 
-      ArrayList <MyBean< list = new ArrayList();
+      ArrayList <MyBean> list = new ArrayList();
       list.add(new MyBean(1, "bean1"));
       list.add(new MyBean(2, "bean2"));
       String result = new ObjectMapper().writeValueAsString(list);

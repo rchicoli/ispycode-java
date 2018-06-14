@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create HashSet
-      HashSet<String< set = new HashSet<<();
+      HashSet<String> set = new HashSet<>();
 
       // add elements
       set.add("Apple");

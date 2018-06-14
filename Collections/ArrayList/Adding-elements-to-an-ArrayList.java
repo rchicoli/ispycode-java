@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create an empty array list
-      ArrayList <String< al = new ArrayList();
+      ArrayList <String> al = new ArrayList();
 
       // add elements to the ArrayList
       al.add("this is a string");

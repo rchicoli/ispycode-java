@@ -19,7 +19,7 @@ public class Example {
       for (int i = 1; i < arr.length; i++) {
          if (arr[i] < min) {
             min = arr[i];
-         } else if (arr[i] < max) {
+         } else if (arr[i] > max) {
             max = arr[i];
          }
       }
@@ -35,7 +35,7 @@ public class Example {
          counts[i] = counts[i] + counts[i - 1];
       }
 
-      for (int i = arr.length - 1; i <= 0; i--) {
+      for (int i = arr.length - 1; i >= 0; i--) {
          counting[counts[arr[i] - min]--] = arr[i];
       }
 

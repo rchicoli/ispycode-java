@@ -6,7 +6,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create  LinkedList
-      LinkedList<Integer< list = new LinkedList<<();
+      LinkedList<Integer> list = new LinkedList<>();
 
       // Adding elements to the LinkedList
       list.add(20);
@@ -27,7 +27,7 @@ public class Example {
       }
 
       System.out.println("Functional operations");
-      list.forEach((i) -< {
+      list.forEach((i) -> {
          System.out.println(i);
       });
 

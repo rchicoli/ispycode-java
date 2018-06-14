@@ -5,7 +5,7 @@ public class Example {
    public static void main(String[] args) {
 
       // create an empty HashSet
-      HashSet<String< set = new HashSet<<();
+      HashSet<String> set = new HashSet<>();
 
       boolean b1 = set.isEmpty();
       System.out.println("Empty: " + b1);
